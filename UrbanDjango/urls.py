@@ -20,16 +20,20 @@ from django.views.generic import TemplateView
 
 from task2.views import class_template, func_template
 from task3.views import task3_platform, task3_games, task3_cart
+from task4.views import task4_platform, task4_games, task4_cart
 
 from .views import supermain
 
 urlpatterns = [
-        path('admin/', admin.site.urls),
         path('', supermain),
+        path('admin/', admin.site.urls),
         path('class_template/', class_template.as_view()),
         path('func_template/', func_template),
         path('TemplateView/', TemplateView.as_view(template_name='TemplateView.html')),
-        path('platform/', task3_platform),
-        path('platform/games/', task3_games),
-        path('platform/cart/', task3_cart),
+        path('platform3/', task3_platform),
+        path('platform3/games3/', task3_games),
+        path('platform3/cart3/', task3_cart),
+        path('platform/', task4_platform),
+        path('platform/games/', task4_games),
+        path('platform/cart/', task4_cart),
         ]

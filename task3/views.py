@@ -9,7 +9,7 @@ def task3_platform(request):
             'games': 'Магазин',
             'cart':  'Корзина'
             }
-    return render(request, 'platform.html', context)
+    return render(request, 'platform3.html', context)
 
 
 def task3_games(request):
@@ -20,7 +20,7 @@ def task3_games(request):
             'game_2':  'Cyberpunk 2077',
             'game_3':  'PayDay2',
             }
-    return render(request, 'games.html', context)
+    return render(request, 'games3.html', context)
 
 
 def task3_cart(request):
@@ -28,4 +28,4 @@ def task3_cart(request):
             'title': 'Магазин',
             'main':  'Корзина',
             }
-    return render(request, 'cart.html', context)
+    return render(request, 'cart3.html', context)
