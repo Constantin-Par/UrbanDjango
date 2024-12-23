@@ -1,4 +1,5 @@
 __pycache__/
+.idea
 *.pyc
 git_commit.cmd
 git_init.cmd
