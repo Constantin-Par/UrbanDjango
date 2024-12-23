@@ -1,75 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="54274bc5-9370-4074-8142-d8c7df9df2ed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/UrbanDjango.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example1/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example1/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example1/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example1/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example1/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example1/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example1/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example2/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example3/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    <list default="true" id="54274bc5-9370-4074-8142-d8c7df9df2ed" name="Changes" comment="1st">
+      <change afterPath="$PROJECT_DIR$/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/second_task/TemplateView.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/second_task/class_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/second_task/func_template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UrbanDjango.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example1/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/example1/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Constantin-Par/UrbanDjango.git",
-    "accountId": "c084cd17-8d34-4100-86d8-8f178823f32b"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Constantin-Par&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Constantin-Par/UrbanDjango.git&quot;,
+    &quot;accountId&quot;: &quot;c084cd17-8d34-4100-86d8-8f178823f32b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2qcZFOH7MKutwb9eFRYapoyDWKQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python/PycharmProjects/UrbanDjango/templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\PycharmProjects\UrbanDjango\templates" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,6 +91,19 @@
       <option name="presentableId" value="Default" />
       <updated>1734963719488</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st">
+      <option name="closed" value="true" />
+      <created>1734964278435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734964278435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st" />
   </component>
 </project>
