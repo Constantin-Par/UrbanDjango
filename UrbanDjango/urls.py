@@ -21,11 +21,12 @@ from django.views.generic import TemplateView
 from task2.views import class_template, func_template
 from task3.views import task3_platform, task3_games, task3_cart
 from task4.views import task4_platform, task4_games, task4_cart
+from task5.views import sign_up_by_django, sign_up_by_html
 
 from .views import supermain
 
 urlpatterns = [
-        path('', supermain),
+        # path('', supermain),
         path('admin/', admin.site.urls),
         path('class_template/', class_template.as_view()),
         path('func_template/', func_template),
@@ -36,4 +37,6 @@ urlpatterns = [
         path('platform/', task4_platform),
         path('platform/games/', task4_games),
         path('platform/cart/', task4_cart),
+        path('', sign_up_by_django),
+        path('registration_page', sign_up_by_html),
         ]
