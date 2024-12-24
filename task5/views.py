@@ -12,13 +12,13 @@ def sign_up_by_html(request):
             'Igor',
             ]
 
+    info = {}
+
     if request.method == 'POST':
         username = request.POST.get('username').strip()
         password = request.POST.get('password')
         repeat_password = request.POST.get('repeat_password')
-        age = request.POST.get('age')
-
-        info = {}
+        age = int(request.POST.get('age', 0))
 
         if username in users:
             info = {'error': f"Пользователь '{username}' уже существует"}
