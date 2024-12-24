@@ -27,7 +27,7 @@ def sign_up_by_html(request):
         elif age < 18:
             info = {'error': 'Вы должны быть старше 18 лет'}
         else:
-            return HttpResponse(f'Приветствуем, {username}')
+            return HttpResponse(f'Приветствуем, {username}!')
 
         return render(request, 'registration_page.html', {'info': info})
 
@@ -61,7 +61,7 @@ def sign_up_by_django(request):
                 info = {'error': 'Вы должны быть старше 18 лет'}
 
             if not info:
-                return HttpResponse(f'Приветствуем, {username}')
+                return HttpResponse(f'Приветствуем, {username}!')
 
     else:
         form = RegistrationForm()

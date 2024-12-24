@@ -14,16 +14,16 @@
 
         {% csrf_token %}
 
-        <label for="username">Введите логин:</label>
+        <label for="username">Введите логин</label>
         <input type="text" id="username" name="username" maxlength="30" required>
 
-        <label for="password">Введите пароль:</label>
+        <label for="password">Введите пароль</label>
         <input type="password" id="password" name="password" minlength="8" required>
 
-        <label for="repeat_password">Повторите пароль:</label>
+        <label for="repeat_password">Повторите пароль</label>
         <input type="password" id="repeat_password" name="repeat_password" minlength="8" required>
 
-        <label for="age">Введите свой возраст:</label>
+        <label for="age">Введите свой возраст</label>
         <input type="number" id="age" name="age" maxlength="3" min="1" max="120" required>
 
         <button type="submit">Зарегистрироваться</button>
